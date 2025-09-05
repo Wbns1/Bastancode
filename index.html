@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bastancode offers web development and graphic design that boost your brand, engage visitors, and drive real growth for your business online.">
+    <meta name="keywords" content="website, site internet, internet sitesi, code, graphic design, grafik tasarımı, responsive, Bastancode">
+    <meta name="author" content="Bastancode">
+    <meta property="og:title" content="Bastancode - Web & Graphic Designer">
+    <meta property="og:description" content="Bastancode offers web development and graphic design that boost your brand">
+    <meta property="og:image" content="https://bastancode.com/assets/img/Bastancode-logo.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bastancode.com/">
+    <meta property="og:site_name" content="Bastancode">
+    <title>Bastancode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" /> 
+  </head>
+  <body>
+      <!-- Navigation Bar -->
+  <header class="header">  
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" class="navbar__logo">
+          Bastancode
+        </a>
+        <button class="navbar__toggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="navbar__menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>    
+  </header>
+  <main class="main">
+      <!--==================== HOME ====================-->
+    <section class="home__container" id="home">
+      <img src="assets/img/Bastancode-logo.jpg" alt="Bastancode logo" class="title sr-fade-down sr-hidden">
+      <div class="home__center">
+        <div class="home__header"><h1>Bastancode <span></span></h1></div>
+        <p class="subtext">Web Developer & Graphic Designer.</p>
+      </div>
+      <div class="home__bottom">
+        <p class="description sr-fade-up sr-hidden">Your website is way more than just code: <br> it's a <span>living showcase.</span></p>
+        <a href="#contact" class="cta sr-fade-up sr-hidden">Let's build yours !</a>
+        <i class="ri-arrow-down-s-line scroll__down"></i>
+      </div>
+    </section>
+    <!--==================== services ====================-->
+    <section class="services__section"  id="services">
+      <h2 class="section__title sr-fade-up sr-hidden">Our<span> Services</span>
+      </h2>
+      <div class="services__container sr-fade-down sr-hidden">
+       <!-- Web Development -->
+       <div class="service__card">
+         <div class="service__icon"> 
+           <i class="ri-code-s-slash-line"></i>
+         </div> 
+         <h3>Web Development</h3>
+         <ul>
+           <li><i class="ri-device-line"></i> Responsive – Adapted to all screens.</li>
+           <li><i class="ri-search-eye-line"></i> SEO – Optimized visibility on google.</li>
+           <li><i class="ri-layout-2-line"></i> User interface – Smooth navigation.</li>
+         </ul>
+       </div>
+       <!-- Graphic Design -->
+       <div class="service__card">
+         <div class="service__icon">
+           <i class="ri-palette-line"></i>
+         </div>
+         <h3>Graphic Design</h3>
+         <ul>
+           <li><i class="ri-brush-line"></i> İdentity – Logos, Branding charters.</li>
+           <li><i class="ri-file-list-line"></i> Marketing – Flyers, Banners, Menus.</li>
+           <li><i class="ri-instagram-line"></i> Social Media – Post, Advertisement.</li>
+         </ul>
+       </div>
+      </div>
+    </section>
+<!--==================== WORKS ====================-->
+ <section class="works section" id="work">
+        <h2 class="section__title sr-fade-up">Recent <span>Projects</span></h2>
+        
+        <div class="slider-container">
+            <button class="slider-btn prev" aria-label="Previous project">‹</button>
+            
+            <div class="slider-wrapper">
+                <div class="project-card sr-fade-down">
+                    <div class="project-header">
+                        <h3>Ayse Créations</h3>
+                        <p class="tech">Custom <span>website</span> bringing handcrafted 3D art to life <span>online</span>.</p>
+                        
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mockup-container">
+                        <img src="assets/img/aysecreation-pcview.gif" 
+                             alt="Desktop View" 
+                             class="mockup desktop visible loading-shimmer" 
+                             data-static="" 
+                             data-gif="assets/img/aysecreation-pcview.gif">
+                        
+                        <img src="assets/img/aysecreationmobileview.gif" 
+                             alt="Mobile View" 
+                             class="mockup mobile" 
+                             data-static="" 
+                             data-gif="assets/img/aysecreationmobileview.gif">
+                    </div>
+                    
+                    <div class="project-footer">
+                        <button class="toggle-view-btn" type="button"> View Mobile</button>
+                        <div class="project-links">
+                            <a href="https://aysecreations.com/" target="_blank" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card sr-fade-down">
+                    <div class="project-header">
+                        <h3>Baştan Oto Yıkama</h3>
+                        <p class="tech">Professional <span>car wash</span> service website with <span>easy navigation</span>.</p>
+                        
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mockup-container">
+                        <img src="assets/img/Bastanoto-pcview.gif" 
+                             alt="Desktop View" 
+                             class="mockup desktop visible loading-shimmer" 
+                             data-static="" 
+                             data-gif="assets/img/Bastanoto-pcview.gif">
+                        
+                        <img src="assets/img/bastanoto-mobileview.gif" 
+                             alt="Mobile View" 
+                             class="mockup mobile" 
+                             data-static="" 
+                             data-gif="assets/img/Bastanoto-mobileview.gif">
+                    </div>
+                    
+                    <div class="project-footer">
+                        <button class="toggle-view-btn" type="button">View mobile</button>
+                        <div class="project-links">
+                            <a href="https://bastanotoyikama.netlify.app" target="_blank" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional project example -->
+                <!--div class="project-card sr-fade-down">
+                    <div class="project-header">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="tech">Full-stack <span>e-commerce</span> solution with <span>payment integration</span>.</p>
+                        
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">Next.js</span>
+                            <span class="tech-badge">Stripe</span>
+                            <span class="tech-badge">PostgreSQL</span>
+                            <span class="tech-badge">Tailwind</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mockup-container">
+                        <img src="https://via.placeholder.com/600x400/805ad5/ffffff?text=E-Commerce+Desktop" 
+                             alt="Desktop View" 
+                             class="mockup desktop visible loading-shimmer" 
+                             data-static="https://via.placeholder.com/600x400/805ad5/ffffff?text=Desktop+Static" 
+                             data-gif="https://via.placeholder.com/600x400/805ad5/ffffff?text=Desktop+GIF">
+                        
+                        <img src="https://via.placeholder.com/300x600/d53f8c/ffffff?text=E-Commerce+Mobile" 
+                             alt="Mobile View" 
+                             class="mockup mobile" 
+                             data-static="https://via.placeholder.com/300x600/d53f8c/ffffff?text=Mobile+Static" 
+                             data-gif="https://via.placeholder.com/300x600/d53f8c/ffffff?text=Mobile+GIF">
+                    </div>
+                    
+                    <div class="project-footer">
+                        <button class="toggle-view-btn">📱 View Mobile</button>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div-->
+            </div>
+            
+            <button class="slider-btn next" aria-label="Next project">›</button>
+        </div>
+        
+        <div class="slider-indicators">
+            <div class="indicator active" data-slide="0"></div>
+            <div class="indicator" data-slide="1"></div>
+            <div class="indicator" data-slide="2"></div>
+        </div>
+    </section>
+
+    <!--section class="works section" id="work">
+      <h2 class="section__title sr-fade-up sr-hidden">Recent <span>Project</span></h2>
+      <div class="slider-container">
+        <button class="slider-btn prev">&lt;</button>
+      
+        <div class="slider-wrapper">
+          <div class="project-card sr-fade-down sr-hidden">
+            <div class="project-header">
+              <h3>Ayse Créations</h3>
+              <p class="tech">Custom <span>website</span> bringing handcrafted 3D art to life <span>online</span>.</p>
+            </div>
+            <div class="mockup-container">
+              <img src="assets/img/aysecreation-pcview.gif" alt="Desktop View" class="mockup desktop visible" data-static="" data-gif="assets/img/aysecreation-pcview.gif">
+              <img src="assets/img/aysecreationmobileview.gif" alt="Mobile View" class="mockup mobile" data-static="" data-gif="assets/img/aysecreationmobileview.gif">
+            </div>
+            <div class="project-footer">
+              <button class="toggle-view-btn"> Click for Mobile view</button>
+            </div>
+          </div>
+        
+          <div class="project-card sr-fade-down sr-hidden">
+            <div class="project-header">
+              <h3>Baştan oto yıkama</h3>
+              <p class="tech">Custom <span>website</span> bringing handcrafted 3D art to life <span>online</span>.</p>
+            </div>
+            <div class="mockup-container">
+              
+              <img src="" alt="Desktop View" class="mockup desktop visible" data-static="" data-gif="assets/img/Bastanoto-pcview.gif">
+              
+              <img src="" alt="Mobile View" class="mockup mobile" data-static="" data-gif="assets/img/Bastanoto-mobileview.gif">
+            </div>
+            <div class="project-footer">
+              <button class="toggle-view-btn"> Click for Mobile view</button>
+            </div>
+          </div>
+        </div>
+        <button class="slider-btn next">&gt;</button>
+      </div>
+    </section-->
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title sr-fade-up sr-hidden">Contact<span> Me</span></h2>
+      <div class="contact__container container grid sr-fade-down sr-hidden">
+        <form class="contact__form grid" id="contact__form" novalidate>
+          <!-- Honeypot anti-spam (hidden) -->
+          <input type="text" name="website" id="website" style="display:none;" autocomplete="off" tabindex="-1" />
+          <div class="contact__group grid">
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              required
+              class="contact__input"
+              autocomplete="name"
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              required
+              class="contact__input"
+              autocomplete="email"
+            />
+          </div>
+        
+          <textarea
+            name="message"
+            placeholder="Message"
+            required
+            class="contact__input contact__area"
+            rows="5"
+          ></textarea>
+        
+          <button type="submit" class="button contact__button">Send message</button>
+          <p class="contact__message" id="contact-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <div>
+          <p class="footer__description">
+              Bastancode | Web & Graphic Designer
+          </p>
+      </div>
+      <div class="footer__content grid">
+          <div>
+              <h3 class="footer__title">İnformation</h3>
+              <ul class="footer__links">
+                  <li>
+                      <a href="#home" class="footer__link">Home</a>
+                  </li>
+                  <li>
+                      <a href="#services" class="footer__link">Services</a>
+                  </li>
+                  <li>
+                      <a href="#work" class="footer__link">Works</a>
+                  </li>
+                  <li>
+                      <a href="#contact" class="footer__link">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <div>
+              <h3 class="footer__title">Social media</h3>
+              <div class="footer__social">
+                  <a href="https://www.instagram.com/Bastancode" target="_blank" class="footer__social">
+                      <i class="ri-instagram-line"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <span class="footer__copy">
+        &#169;2025 Bastancode. All rights reserved.
+        <a href="../../mention-legales.html" class="footer__link">Legal mentions</a>.
+    </span>
+  </footer>
+  <!-- Script -->
+  <script src="assets/js/email.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  </body>
+</html>
